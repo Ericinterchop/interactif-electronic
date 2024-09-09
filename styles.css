@@ -321,7 +321,7 @@ footer {
       }
       .results {
         margin-top: 10px;
-        border: 1px solid #ccc;
+        border: 0px solid #ccc;
         padding: 10px;
         display: none;
     }
