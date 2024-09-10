@@ -43,119 +43,134 @@
   </section>
 
   <section class="container" id="produits">
-      <div class="card">
-          <img src="./images/Montre connecté 1.jpg" alt="Montre Connectée 1" loading="lazy">
-          <h2>Montre Connectée </h2>
-          <p>Suivez votre santé et votre activité avec cette montre connectée avancée et accesoires intégrés.</p>
-          <p class="price">Prix: 9500 FCFA</p>
-          <p class="stock">Stock: 11 unités</p>
-          <button class="button" onclick="addToCart('Montre Connectée 1', 9500)">Ajouter au Panier</button>
-      </div>
-      <div class="card">
-          <img src="./images/Montre Connectée 2.jpg" alt="Montre Connectée 2" loading="lazy">
-          <h2>Montre Connectée </h2>
-          <p>Montre connectée avec GPS intégré et suivi de la fréquence cardiaque accesoires intégrés.</p>
-          <p class="price">Prix: 8500 FCFA</p>
-          <p class="stock">Stock: 8 unités</p>
-          <button class="button" onclick="addToCart('Montre Connectée 2', 8500)">Ajouter au Panier</button>
-      </div>
-      <div class="card">
-          <img src="./images/Écouteurs Sans Fil.jpg" alt="Écouteurs Sans Fil" loading="lazy">
-          <h2>Écouteurs Sans Fil</h2>
-          <p>Écoutez votre musique avec une qualité sonore exceptionnelle sans fil.</p>
-          <p class="price">Prix: 5500 FCFA</p>
-          <p class="stock">Stock: 10 unités</p>
-          <button class="button" onclick="addToCart('Écouteurs Sans Fil', 5500)">Ajouter au Panier</button>
-      </div>
-      <div class="card">
-          <img src="./images/Smartphone 1.jpg" alt="Smartphone 1" loading="lazy">
-          <h2>Ecouteurs bleutooth </h2>
-          <p>Écoutez votre musique avec une qualité sonore exceptionnelle sans fil et optimale.</p>
-          <p class="price">Prix: 9500 FCFA</p>
-          <p class="stock">Stock: 10 unités</p>
-          <button class="button" onclick="addToCart('Ecouteurs bleutooth', 9500)">Ajouter au Panier</button>
-      </div>
-      <div class="card">
-          <img src="./images/Tablette 1.jpg" alt="Tablette 1" loading="lazy">
-          <h2>Casques bleutooth JBL</h2>
-          <p>Profitez d'un son immersif et d'une liberté de mouvement avec ce casque Bluetooth. Confortable et léger, il offre une autonomie longue durée et des commandes intuitives pour une expérience audio optimale.</p>
-          <p class="price">Prix: 6500 FCFA</p>
-          <p class="stock">Stock: 5 unités</p>
-          <button class="button" onclick="addToCart('Casques bleutooth JBL', 6500)">Ajouter au Panier</button>
-      </div>
-      <div class="card" id="moreProducts" style="display: none;">
-          <img src="./images/Montre Connectée 3.jpg" alt="Montre Connectée 3" loading="lazy">
-          <h2>Casques bleutooth </h2>
-          <p>Profitez d'un son immersif et d'une liberté de mouvement avec ce casque Bluetooth. Confortable et léger, il offre une autonomie longue durée et des commandes intuitives pour une expérience audio optimale.</p>
-          <p class="price">Prix: 6000 FCFA</p>
-          <p class="stock">Stock: 10 unités</p>
-          <button class="button" onclick="addToCart('Casques bleutooth', 6000)">Ajouter au Panier</button>
-      </div>
-      <div class="card" id="moreProducts" style="display: none;">
-          <img src="./images/Smartphone 2.jpg" alt="Smartphone 2" loading="lazy">
-          <h2>veilleuse LED</h2>
-          <p>Créez une ambiance apaisante avec cette veilleuse . Économique et douce, elle offre une lumière rassurante pour les nuits tranquilles.</p>
-          <p class="price">Prix:  7500 FCFA</p>
-          <p class="stock">Stock: 5 unités</p>
-          <button class="button" onclick="addToCart('veilleuse LED', 7500)">Ajouter au Panier</button>
-      </div>
-      <div class="card" id="moreProducts" style="display: none;">
-          <img src="./images/Tablette 2.jpg" alt="Tablette 2" loading="lazy">
-          <h2>veilleuse</h2>
-          <p>Créez une ambiance apaisante avec cette veilleuse LED. Économique et douce, elle offre une lumière rassurante pour les nuits tranquilles.</p>
-          <p class="price">Prix: 7500 FCFA</p>
-          <p class="stock">Stock: 3 unités</p>
-          <button class="button" onclick="addToCart('veilleuse', 7500 )">Ajouter au Panier</button>
-      </div>
-      <div class="card" id="moreProducts" style="display: none;">
+    <div class="card">
+        <img src="./images/Montre connecté 1.jpg" alt="Montre Connectée 1" loading="lazy">
+        <h2>Montre Connectée 1</h2>
+        <p>Suivez votre santé et votre activité avec cette montre connectée avancée et accessoires intégrés.</p>
+        <p class="price">Prix : <span style="color: orange;">10 450 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>9 405 FCFA</strong></p>
+        <p class="stock">Stock : 11 unités</p>
+        <button class="button" onclick="addToCart('Montre Connectée 1', 9405)">Ajouter au Panier</button>
+    </div>
+    <div class="card">
+        <img src="./images/Montre Connectée 2.jpg" alt="Montre Connectée 2" loading="lazy">
+        <h2>Montre Connectée 2</h2>
+        <p>Montre connectée avec GPS intégré et suivi de la fréquence cardiaque.</p>
+        <p class="price">Prix : <span style="color: orange;">9 350 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>8 415 FCFA</strong></p>
+        <p class="stock">Stock : 8 unités</p>
+        <button class="button" onclick="addToCart('Montre Connectée 2', 8415)">Ajouter au Panier</button>
+    </div>
+    <div class="card">
+        <img src="./images/Écouteurs Sans Fil.jpg" alt="Écouteurs Sans Fil" loading="lazy">
+        <h2>Écouteurs Sans Fil</h2>
+        <p>Écoutez votre musique avec une qualité sonore exceptionnelle sans fil.</p>
+        <p class="price">Prix : <span style="color: orange;">6 050 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>5 445 FCFA</strong></p>
+        <p class="stock">Stock : 10 unités</p>
+        <button class="button" onclick="addToCart('Écouteurs Sans Fil', 5445)">Ajouter au Panier</button>
+    </div>
+    <div class="card">
+        <img src="./images/Smartphone 1.jpg" alt="Smartphone 1" loading="lazy">
+        <h2>Écouteurs Bluetooth</h2>
+        <p>Écoutez votre musique avec une qualité sonore exceptionnelle sans fil et optimale.</p>
+        <p class="price">Prix : <span style="color: orange;">10 450 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>9 405 FCFA</strong></p>
+        <p class="stock">Stock : 10 unités</p>
+        <button class="button" onclick="addToCart('Écouteurs Bluetooth', 9405)">Ajouter au Panier</button>
+    </div>
+    <div class="card">
+        <img src="./images/Tablette 1.jpg" alt="Tablette 1" loading="lazy">
+        <h2>Casques Bluetooth JBL</h2>
+        <p>Profitez d'un son immersif et d'une liberté de mouvement avec ce casque Bluetooth.</p>
+        <p class="price">Prix : <span style="color: orange;">7 150 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>6 795 FCFA</strong></p>
+        <p class="stock">Stock : 5 unités</p>
+        <button class="button" onclick="addToCart('Casques Bluetooth JBL', 6795)">Ajouter au Panier</button>
+    </div>
+    <div class="card" id="moreProducts" style="display: none;">
+        <img src="./images/Montre Connectée 3.jpg" alt="Montre Connectée 3" loading="lazy">
+        <h2>Casques Bluetooth</h2>
+        <p>Profitez d'un son immersif et d'une liberté de mouvement avec ce casque Bluetooth.</p>
+        <p class="price">Prix : <span style="color: orange;">6 600 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>5 940 FCFA</strong></p>
+        <p class="stock">Stock : 10 unités</p>
+        <button class="button" onclick="addToCart('Casques Bluetooth', 5940)">Ajouter au Panier</button>
+    </div>
+    <div class="card" id="moreProducts" style="display: none;">
+        <img src="./images/Smartphone 2.jpg" alt="Smartphone 2" loading="lazy">
+        <h2>Veilleuse LED</h2>
+        <p>Créez une ambiance apaisante avec cette veilleuse. Économique et douce, elle offre une lumière rassurante pour les nuits tranquilles.</p>
+        <p class="price">Prix : <span style="color: orange;">8 250 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>7 425 FCFA</strong></p>
+        <p class="stock">Stock : 5 unités</p>
+        <button class="button" onclick="addToCart('Veilleuse LED', 7425)">Ajouter au Panier</button>
+    </div>
+    <div class="card" id="moreProducts" style="display: none;">
+        <img src="./images/Tablette 2.jpg" alt="Tablette 2" loading="lazy">
+        <h2>Veilleuse</h2>
+        <p>Créez une ambiance apaisante avec cette veilleuse LED.</p>
+        <p class="price">Prix : <span style="color: orange;">8 250 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>7 425 FCFA</strong></p>
+        <p class="stock">Stock : 3 unités</p>
+        <button class="button" onclick="addToCart('Veilleuse', 7425)">Ajouter au Panier</button>
+    </div>
+    <div class="card" id="moreProducts" style="display: none;">
         <img src="./images/mini-bafle.jpg" alt="mini-bafle" loading="lazy">
-        <h2>mini-bafle</h2>
-        <p>Profitez d'un son puissant et clair avec cette mini baffle JBL. Compacte et portable, elle offre une autonomie prolongée et une résistance à l'eau, parfaite pour vos aventures en extérieur.</p>
-        <p class="price">Prix: 15000 FCFA</p>
-        <p class="stock">Stock: 7 unités</p>
-        <button class="button" onclick="addToCart('mini-bafle', 15000)">Ajouter au Panier</button>
+        <h2>Mini-Bafle</h2>
+        <p>Profitez d'un son puissant et clair avec cette mini baffle JBL.</p>
+        <p class="price">Prix : <span style="color: orange;">16 500 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>14 850 FCFA</strong></p>
+        <p class="stock">Stock : 7 unités</p>
+        <button class="button" onclick="addToCart('Mini-Bafle', 14850)">Ajouter au Panier</button>
     </div>
     <div class="card" id="moreProducts" style="display: none;">
         <img src="./images/mini-bafle2.jpg" alt="mini-bafle2" loading="lazy">
-        <h2>mini-bafle2</h2>
-        <p>Profitez d'un son puissant et clair avec cette mini baffle JBL. Compacte et portable, elle offre une autonomie prolongée et une résistance à l'eau, parfaite pour vos aventures en extérieur.</p>
-        <p class="price">Prix: 9500 FCFA</p>
-        <p class="stock">Stock: 10 unités</p>
-        <button class="button" onclick="addToCart('mini-bafle2', 9500)">Ajouter au Panier</button>
+        <h2>Mini-Bafle 2</h2>
+        <p>Profitez d'un son puissant et clair avec cette mini baffle JBL.</p>
+        <p class="price">Prix : <span style="color: orange;">10 450 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>9 405 FCFA</strong></p>
+        <p class="stock">Stock : 10 unités</p>
+        <button class="button" onclick="addToCart('Mini-Bafle 2', 9405)">Ajouter au Panier</button>
     </div>
     <div class="card" id="moreProducts" style="display: none;">
         <img src="./images/mini-camera-espion.jpg" alt="mini-camera-espion" loading="lazy">
-        <h2>mini-camera-espion</h2>
-        <p>Compacte et discrète, cette caméra offre une qualité d'image HD, vision nocturne et détection de mouvement avec wifi. </p>
-        <p class="price">Prix: 11500 FCFA</p>
-        <p class="stock">Stock: 5 unités</p>
-        <button class="button" onclick="addToCart('mini-camera-espion', 11500)">Ajouter au Panier</button>
+        <h2>Mini-Caméra Espion</h2>
+        <p>Compacte et discrète, cette caméra offre une qualité d'image HD, vision nocturne et détection de mouvement avec wifi.</p>
+        <p class="price">Prix : <span style="color: orange;">12 650 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>11 385 FCFA</strong></p>
+        <p class="stock">Stock : 5 unités</p>
+        <button class="button" onclick="addToCart('Mini-Caméra Espion', 11385)">Ajouter au Panier</button>
     </div>
     <div class="card" id="moreProducts" style="display: none;">
         <img src="./images/camera-espion-.webp" alt="camera-espion-" loading="lazy">
-        <h2>camera-espion</h2>
+        <h2>Camera Espion</h2>
         <p>Compacte et discrète, cette caméra offre une qualité d'image HD, vision nocturne et détection de mouvement.</p>
-        <p class="price">Prix: 5500 FCFA</p>
-        <p class="stock">Stock: 4 unités</p>
-        <button class="button" onclick="addToCart('camera-espion-', 5500)">Ajouter au Panier</button>
+        <p class="price">Prix : <span style="color: orange;">6 050 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>5 445 FCFA</strong></p>
+        <p class="stock">Stock : 4 unités</p>
+        <button class="button" onclick="addToCart('Camera Espion', 5445)">Ajouter au Panier</button>
     </div>
     <div class="card" id="moreProducts" style="display: none;">
         <img src="./images/diffuseur.jpg" alt="diffuseur" loading="lazy">
-        <h2>diffuseur</h2>
-        <p>Créez une ambiance apaisante avec ce diffuseur d'arôme ultrasonique. Silencieux et élégant, il diffuse vos huiles essentielles préférées tout en humidifiant l'air.</p>
-        <p class="price">Prix: 4500 FCFA</p>
-        <p class="stock">Stock: 3 unités</p>
-        <button class="button" onclick="addToCart('diffuseur', 4500)">Ajouter au Panier</button>
+        <h2>Diffuseur</h2>
+        <p>Créez une ambiance apaisante avec ce diffuseur d'arôme ultrasonique.</p>
+        <p class="price">Prix : <span style="color: orange;">4 950 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>4 455 FCFA</strong></p>
+        <p class="stock">Stock : 3 unités</p>
+        <button class="button" onclick="addToCart('Diffuseur', 4455)">Ajouter au Panier</button>
     </div>
     <div class="card" id="moreProducts" style="display: none;">
         <img src="./images/diffuseur 2.jpg" alt="diffuseur 2" loading="lazy">
-        <h2>diffuseur d'arome</h2>
-        <p>Créez une ambiance apaisante avec ce diffuseur d'arôme ultrasonique. Silencieux et élégant, il diffuse vos huiles essentielles préférées tout en humidifiant l'air..</p>
-        <p class="price">Prix: 4500 FCFA</p>
-        <p class="stock">Stock: 3  unités</p>
-        <button class="button" onclick="addToCart('diffuseur 2', 4500)">Ajouter au Panier</button>
+        <h2>Diffuseur d'Arome</h2>
+        <p>Créez une ambiance apaisante avec ce diffuseur d'arôme ultrasonique.</p>
+        <p class="price">Prix : <span style="color: orange;">4 950 FCFA</span></p>
+        <p class="price" style="color: red;">Prix avec Réduction : <strong>4 455 FCFA</strong></p>
+        <p class="stock">Stock : 3 unités</p>
+        <button class="button" onclick="addToCart('Diffuseur d\'Arome', 4455)">Ajouter au Panier</button>
     </div>
-  </section>
+</section>
+
   <button class="button" id="seeMoreBtn" onclick="seeMore()">Voir plus</button>
 
   <section class="blog-section" id="blog">
